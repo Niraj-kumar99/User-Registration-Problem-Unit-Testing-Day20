@@ -43,6 +43,11 @@ public class UserRegistrationUtilitiesTest {
     }
 
     @Test
+    void givenMail_WithoutAnyDomain_ShouldReturnFalse() {
+        Assertions.assertFalse(utilities.validEmail("nkj@gmail"));
+    }
+
+    @Test
     public void givenMobileNumber_WhenValid_ShouldReturnTrue() {
         Assertions.assertTrue(utilities.validMobileNumber("4875976234"));
     }

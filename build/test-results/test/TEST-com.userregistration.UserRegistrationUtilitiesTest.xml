@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistrationUtilitiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-06T17:54:22" hostname="DESKTOP-4Q550E8" time="0.023">
+<testsuite name="com.userregistration.UserRegistrationUtilitiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-14T13:56:56" hostname="DESKTOP-4Q550E8" time="0.042">
   <properties/>
-  <testcase name="givenFirstName_WithNumberOrSpecialChar_ShouldReturnFalse()" classname="com.userregistration.UserRegistrationUtilitiesTest" time="0.023"/>
+  <testcase name="givenMail_WithoutAnyDomain_ShouldReturnFalse()" classname="com.userregistration.UserRegistrationUtilitiesTest" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
